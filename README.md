@@ -1,5 +1,5 @@
 # apkbleach_2.0
-![alt text](https://github.com/graylagx2/Images/apkbleach2.png?raw=true)
+![alt text](https://github.com/graylagx2/Images/apkbleach2.png)
 
 **About:**
 
