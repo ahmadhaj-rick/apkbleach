@@ -1,5 +1,5 @@
 # apkbleach_2.0
-![alt text](https://github.com/graylagx2/Images/apkbleach2.png)
+![Screen shot of sofware image](https://github.com/graylagx2/Images/blob/master/apkbleach2.png)
 
 **About:**
 
