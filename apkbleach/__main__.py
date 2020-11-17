@@ -59,7 +59,7 @@ def main():
 	try:
 		if start.icon:
 			stop_spin = False
-			icon_inject_loading = threading.Thread(target=spin, args=(f"{Fore.YELLOW}Injecting icon ", f"{Fore.YELLOW}Icon injected{Fore.GREEN}[*]  "))
+			icon_inject_loading = threading.Thread(target=spin, args=(f"{Fore.YELLOW}Injecting icon ", f"{Fore.YELLOW}Icon injected{Fore.GREEN} [*]  "))
 			icon_inject_loading.start()
 			start.icon_inject()
 			stop_spin = True
