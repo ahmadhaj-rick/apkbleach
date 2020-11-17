@@ -231,17 +231,19 @@ class ApkBleach:
 						del_perm_ask = input(f"\n{Fore.YELLOW}Choose [y/n] the default is [n]: ").upper()
 
 						for repeat in range(3):
-							print("\033[A                                       \033[A")
+							print("\033[A                                                                           \033[A")
 
 
 						if del_perm_ask == "Y" or del_perm_ask == "YES":
 							print(f"{Fore.YELLOW}Deleted {Fore.RED}{permission}".center(os.get_terminal_size().columns))
 							sleep(.5)
 
-							print("\033[A                                       \033[A")
+							print("\033[A                                                                           \033[A")
 
 							for edit_line in fileinput.input([f'{self.decompiled_path}/AndroidManifest.xml'], inplace=True):
 										print(edit_line.replace(line, ''), end='')
+				for repeat in range(3):
+							print("\033[A                                                                           \033[A")
 		
 		if self.stealth_path:
 			os.remove(f'{self.decompiled_path}/smali/com/metasploit/stage/MainActivity.smali')
