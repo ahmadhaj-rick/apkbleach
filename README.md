@@ -60,7 +60,7 @@ This software was developed specifically for Kali-Linux to remove the obvious fi
   
       --clear-cache         Allows prompt whether to keep package maintainers version apktool
   
-# Install instructions:
+**Install instructions:**
 
 After cloning or downloading the repository cd into the apkbleach directory and run run install.sh
 
