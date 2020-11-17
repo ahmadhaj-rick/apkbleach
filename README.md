@@ -3,7 +3,7 @@
 
 **About:**
 
-This software was developed specifically for Kali-Linux to remove the obvious fingerprints of metasploit through out a android PAYLOAD along with assisting the user in making PAYLOAD.apk more installable across a wider range of devices.
+This software was developed specifically for Kali-Linux to obfuscate android payloads in attempts to evade detection. This software also automates the process of changing the app icon, changing the app name, signing the apk, aligning the apk and installing or upgrading apktool.
 
 **Features:**
 
