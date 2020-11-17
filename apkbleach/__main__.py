@@ -46,7 +46,7 @@ def main():
 		sys.exit(f"\t{Fore.RED}{generate[1]}{Fore.RESET}\n".center(os.get_terminal_size().columns))
 
 	stop_spin = False
-	dec_loading = threading.Thread(target=spin, args=(f"{Fore.YELLOW}Decompiling Apk ", f"{Fore.YELLOW}Apk decompiled {Fore.GREEN}[*] "))
+	dec_loading = threading.Thread(target=spin, args=(f"{Fore.YELLOW}Decompiling apk ", f"{Fore.YELLOW}Apk decompiled {Fore.GREEN}[*] "))
 	dec_loading.start()
 	start.decompile_apk() if os.path.isfile('/tmp/bleach_me.apk') else sys.exit("Can not find payload Apk")
 	stop_spin = True
