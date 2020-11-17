@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import argparse
 from argparse import RawTextHelpFormatter
 from colorama import Fore, Style
