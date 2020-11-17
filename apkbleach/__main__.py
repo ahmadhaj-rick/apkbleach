@@ -70,7 +70,7 @@ def main():
 
 
 	start.rebuild_apk()
-	print(f"{Fore.YELLOW}Rebuilt Apk {Fore.GREEN}[*] \n")
+	print(f"{Fore.YELLOW}Rebuilt apk {Fore.GREEN}[*] \n")
 
 	if os.path.isfile(start.output_file):
 		print(f"{Fore.YELLOW}ApkBleach complete {Fore.GREEN}[*]\n")
