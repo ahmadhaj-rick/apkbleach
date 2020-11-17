@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from .bleach import ApkBleach
 from colorama import Fore, Style
 import os
