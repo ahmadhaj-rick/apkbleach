@@ -9,7 +9,7 @@ setup(
         'argparse',
         'colorama',
         'pillow',
-        'pyfiglet',
+        'pyfiglet==0.8.post1',
         'requests'
     ],
     entry_points = {
