@@ -19,7 +19,7 @@ This software was developed specifically for Kali-Linux to obfuscate android pay
 
 4) Renames the application to the name you put chose as the ouput file
 
-5) Scrubs the entire application of any mentions of the name "metasploit" or "stage". There are a lot by the way. sending security testing with an app that contains the name metasploit is just funny :-)
+5) Scrubs the entire application of any mentions of the name "metasploit" , "stage" or "payload". There are a lot by the way. sending security testing with an app that contains the name metasploit is just funny :-)
 
 6) Adds padnops to PAYLOAD
 
