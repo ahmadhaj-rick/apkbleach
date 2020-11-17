@@ -5,6 +5,10 @@
 
 This software was developed specifically for Kali-Linux to obfuscate android payloads in attempts to evade detection. This software also automates the process of changing the app icon, changing the app name, signing the apk, aligning the apk and installing or upgrading apktool.
 
+**Youtube instructional video:**
+
+   https://www.youtube.com/watch?v=tqgscJ93LFw
+
 **Features:**
 
 1) Line by line permissions editing. The software will go through each permission in the manifest and ask if you want to delete it.
@@ -49,7 +53,7 @@ This software was developed specifically for Kali-Linux to obfuscate android pay
       -i [BLEACH_icon..] or [path/to/custom/icon]
                         Injects an icon
                         
-      -o [output/path/for/apk]
+      -o [output/path/for/file.apk]
                         Path to output apk
                         
       --edit-permissions    Enables permission editing in apk's manifest
